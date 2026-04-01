@@ -31,11 +31,11 @@
 | 1 | Overview | [Overview и введение в ML](lectures/01-overview.pdf) | [Основы pandas](seminars/practice-00-pandas-basics.ipynb) | TODO |
 | 2 | Linear Regression | [Линейная регрессия](lectures/02-linreg.pdf) | [Линейная регрессия в `sklearn`](seminars/practice-02-linear-regression-with-sklearn.ipynb), [Мини-проект B: линейные модели](homeworks/mini-project-b-linear-models.ipynb) | TODO |
 | 3 | Gradient Descent | [Градиентный спуск](lectures/03-gradient-descent.pdf) | [Разминка по градиентному спуску](seminars/practice-01-gradient-descent-warmup.ipynb), [Практика по градиентному спуску](seminars/practice-01-gradient-descent-hands-on.ipynb), [Оптимизация и градиентные методы](seminars/practice-03-optimization-and-gradient-methods.ipynb) | TODO |
-| 4 | Metrics | [Метрики](lectures/04-metrics.pdf) | [Признаки, препроцессинг и функции потерь](seminars/practice-02-feature-engineering-and-losses.ipynb), [Калибровка вероятностей](seminars/practice-06-probability-calibration.ipynb) | TODO |
-| 5 | Logistic Regression I | [Логистическая регрессия, часть 1](lectures/05-logreg-part-1.pdf) | [Бинарная линейная классификация](seminars/practice-04-binary-linear-classification.ipynb), [Линейные классификаторы](seminars/practice-05-linear-classifiers.ipynb) | TODO |
-| 6 | Logistic Regression II | [Логистическая регрессия, часть 2](lectures/06-logreg-part-2.pdf) | [Логистическая регрессия и SVM](seminars/practice-05-logreg-and-svm.ipynb), [Калибровка вероятностей](seminars/practice-06-probability-calibration.ipynb) | TODO |
+| 4 | Metrics | [Метрики](lectures/04-metrics.pdf) | [Признаки, препроцессинг и функции потерь](seminars/practice-02-feature-engineering-and-losses.ipynb) | TODO |
+| 5 | Logistic Regression I | [Логистическая регрессия, часть 1](lectures/05-logreg-part-1.pdf) | [Бинарная линейная классификация](seminars/practice-04-binary-linear-classification.ipynb) | TODO |
+| 6 | Logistic Regression II | [Логистическая регрессия, часть 2](lectures/06-logreg-part-2.pdf) | [Линейные классификаторы](seminars/practice-05-linear-classifiers.ipynb)| TODO |
 | 7 | SVM | [Support Vector Machines](lectures/07-svm.pdf) | [Логистическая регрессия и SVM](seminars/practice-05-logreg-and-svm.ipynb) | TODO |
-| 8 | Multiclass Classification | [Многоклассовая классификация](lectures/08-multiclass-classification.pdf) | [Логистическая регрессия и SVM](seminars/practice-05-logreg-and-svm.ipynb) | TODO |
+| 8 | Multiclass Classification | [Многоклассовая классификация](lectures/08-multiclass-classification.pdf) | [Калибровка вероятностей](seminars/practice-06-probability-calibration.ipynb) | TODO |
 | 9 | Decision Trees | [Решающие деревья](lectures/09-decision-trees.pdf) | [Практика по решающим деревьям](seminars/practice-07-decision-trees.ipynb) | TODO |
 | 10 | BVD | [Bias-Variance Decomposition](lectures/10-bias-variance-decomposition.pdf) | [Случайный лес и BVD](seminars/practice-09-random-forest.ipynb) | TODO |
 | 11 | Bagging + RF | [Bagging и Random Forest](lectures/11-bagging-and-random-forest.pdf) | [Случайный лес и BVD](seminars/practice-09-random-forest.ipynb) | TODO |
