@@ -30,27 +30,27 @@
 
 ## План Тем
 
-Ниже собран рабочий план тем и соответствие материалов внутри репозитория. Блок со ссылками на записи оставлен в удобном для дальнейшего заполнения виде.
+Ниже собран рабочий план тем и соответствие материалов внутри репозитория. Поле со ссылками на записи оставлено для последующего заполнения.
 
-| № | Тема | Лекция | Семинар / практика | VK | YouTube |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Введение в машинное обучение | [`01-course-overview-and-ml-intro.pdf`](lectures/01-course-overview-and-ml-intro.pdf) | [`practice-00-pandas-basics.ipynb`](seminars/practice-00-pandas-basics.ipynb) | TODO | [запись](https://youtu.be/-tz5KDMKd4E) |
-| 2 | Линейная регрессия | [`02-linear-regression.pdf`](lectures/02-linear-regression.pdf) | [`practice-02-linear-regression-with-sklearn.ipynb`](seminars/practice-02-linear-regression-with-sklearn.ipynb), [`hw-02-linear-regression.ipynb`](homeworks/hw-02-linear-regression.ipynb) | TODO | [запись](https://www.youtube.com/watch?v=iNYUmd0-_UU&list=PLEwK9wdS5g0ohn4v-t8yaCOEAC0KT3EPf&index=3) |
-| 3 | Градиентный спуск и оптимизация | [`03-gradient-descent-and-optimization.pdf`](lectures/03-gradient-descent-and-optimization.pdf) | [`practice-01-gradient-descent-warmup.ipynb`](seminars/practice-01-gradient-descent-warmup.ipynb), [`practice-01-gradient-descent-hands-on.ipynb`](seminars/practice-01-gradient-descent-hands-on.ipynb), [`practice-03-optimization-and-gradient-methods.ipynb`](seminars/practice-03-optimization-and-gradient-methods.ipynb) | TODO | TODO |
-| 4 | Линейная классификация | [`04-linear-classification.pdf`](lectures/04-linear-classification.pdf) | [`practice-04-binary-linear-classification.ipynb`](seminars/practice-04-binary-linear-classification.ipynb), [`practice-05-linear-classifiers.ipynb`](seminars/practice-05-linear-classifiers.ipynb) | TODO | TODO |
-| 5 | Метрики, регуляризация и валидация | [`05-metrics-regularization-and-validation.pdf`](lectures/05-metrics-regularization-and-validation.pdf) | [`practice-05-logreg-and-svm.ipynb`](seminars/practice-05-logreg-and-svm.ipynb), [`practice-06-probability-calibration.ipynb`](seminars/practice-06-probability-calibration.ipynb) | TODO | TODO |
-| 6 | Метод опорных векторов | [`06-support-vector-machines.pdf`](lectures/06-support-vector-machines.pdf) | [`practice-05-logreg-and-svm.ipynb`](seminars/practice-05-logreg-and-svm.ipynb) | TODO | TODO |
-| 7 | Решающие деревья | [`07-decision-trees.pdf`](lectures/07-decision-trees.pdf) | [`practice-07-decision-trees.ipynb`](seminars/practice-07-decision-trees.ipynb) | TODO | TODO |
-| 8 | Ансамбли и случайный лес | [`08-ensembles-and-random-forest.pdf`](lectures/08-ensembles-and-random-forest.pdf) | [`practice-09-random-forest.ipynb`](seminars/practice-09-random-forest.ipynb) | TODO | TODO |
-| 9 | Градиентный бустинг | [`09-gradient-boosting.pdf`](lectures/09-gradient-boosting.pdf) | [`practice-10-boosting-basics.ipynb`](seminars/practice-10-boosting-basics.ipynb) | TODO | TODO |
-| 10 | Продвинутый бустинг и практические трюки | [`10-advanced-boosting.pdf`](lectures/10-advanced-boosting.pdf) | [`practice-11-advanced-boosting.ipynb`](seminars/practice-11-advanced-boosting.ipynb) | TODO | TODO |
-| 11 | Работа с текстами и прикладные пайплайны | [`11-texts-and-applied-ml.pdf`](lectures/11-texts-and-applied-ml.pdf) | [`practice-08-text-classification.ipynb`](seminars/practice-08-text-classification.ipynb) | TODO | TODO |
-| 12 | Ненаблюдаемое обучение и кластеризация | [`12-clustering.pdf`](lectures/12-clustering.pdf) | материал семинара будет добавлен отдельно | TODO | TODO |
+| № | Тема | Лекция | Семинар / практика | Записи |
+| --- | --- | --- | --- | --- |
+| 1 | Введение в машинное обучение | [Введение в ML](lectures/01-course-overview-and-ml-intro.pdf) | [Основы pandas](seminars/practice-00-pandas-basics.ipynb) | TODO |
+| 2 | Линейная регрессия | [Линейная регрессия](lectures/02-linear-regression.pdf) | [Линейная регрессия в `sklearn`](seminars/practice-02-linear-regression-with-sklearn.ipynb), [ДЗ 2: линейная регрессия](homeworks/hw-02-linear-regression.ipynb) | TODO |
+| 3 | Градиентный спуск и оптимизация | [Градиентный спуск и оптимизация](lectures/03-gradient-descent-and-optimization.pdf) | [Разминка по градиентному спуску](seminars/practice-01-gradient-descent-warmup.ipynb), [Практика по градиентному спуску](seminars/practice-01-gradient-descent-hands-on.ipynb), [Оптимизация и градиентные методы](seminars/practice-03-optimization-and-gradient-methods.ipynb) | TODO |
+| 4 | Линейная классификация | [Линейная классификация](lectures/04-linear-classification.pdf) | [Бинарная линейная классификация](seminars/practice-04-binary-linear-classification.ipynb), [Линейные классификаторы](seminars/practice-05-linear-classifiers.ipynb) | TODO |
+| 5 | Метрики, регуляризация и валидация | [Метрики, регуляризация и валидация](lectures/05-metrics-regularization-and-validation.pdf) | [Логистическая регрессия и SVM](seminars/practice-05-logreg-and-svm.ipynb), [Калибровка вероятностей](seminars/practice-06-probability-calibration.ipynb) | TODO |
+| 6 | Метод опорных векторов | [Метод опорных векторов](lectures/06-support-vector-machines.pdf) | [Логистическая регрессия и SVM](seminars/practice-05-logreg-and-svm.ipynb) | TODO |
+| 7 | Решающие деревья | [Решающие деревья](lectures/07-decision-trees.pdf) | [Практика по решающим деревьям](seminars/practice-07-decision-trees.ipynb) | TODO |
+| 8 | Ансамбли и случайный лес | [Ансамбли и случайный лес](lectures/08-ensembles-and-random-forest.pdf) | [Случайный лес](seminars/practice-09-random-forest.ipynb) | TODO |
+| 9 | Градиентный бустинг | [Градиентный бустинг](lectures/09-gradient-boosting.pdf) | [Бустинг: базовая практика](seminars/practice-10-boosting-basics.ipynb) | TODO |
+| 10 | Продвинутый бустинг и практические трюки | [Продвинутый бустинг](lectures/10-advanced-boosting.pdf) | [Продвинутые техники бустинга](seminars/practice-11-advanced-boosting.ipynb) | TODO |
+| 11 | Работа с текстами и прикладные пайплайны | [Тексты и прикладной ML](lectures/11-texts-and-applied-ml.pdf) | [Классификация текстов](seminars/practice-08-text-classification.ipynb) | TODO |
+| 12 | Ненаблюдаемое обучение и кластеризация | [Кластеризация](lectures/12-clustering.pdf) | материал семинара будет добавлен отдельно | TODO |
 
 ## Домашние Задания
 
-- [`hw-01-pandas-and-visualization.ipynb`](homeworks/hw-01-pandas-and-visualization.ipynb) - работа с `pandas`, табличными данными и базовой визуализацией;
-- [`hw-02-linear-regression.ipynb`](homeworks/hw-02-linear-regression.ipynb) - признаки, линейные модели и регрессия.
+- [ДЗ 1: `pandas` и визуализация](homeworks/hw-01-pandas-and-visualization.ipynb) - работа с `pandas`, табличными данными и базовой визуализацией;
+- [ДЗ 2: линейная регрессия](homeworks/hw-02-linear-regression.ipynb) - признаки, линейные модели и регрессия.
 
 ## Дополнительные Материалы
 
@@ -84,9 +84,6 @@
 - [Оптимизация в машинном обучении](https://education.yandex.ru/handbook/ml/article/optimizaciya-v-ml)
 - [Gradient Descent Cheat Sheet](https://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html)
 - [Gradient Descent (MIT VisionBook)](https://visionbook.mit.edu/gradient_descent.html)
-- [Интуитивный видеоразбор по градиентному спуску](https://www.youtube.com/watch?v=IHZwWFHWa-w&t=779s&pp=ygURZ3JhZGllbnRzIGRlc2NlbnQ%3D)
-- [Ещё один видеоразбор по оптимизации](https://www.youtube.com/watch?v=S5AGN9XfPK4)
-- [Короткий видеоразбор по градиентному спуску](https://www.youtube.com/watch?v=qg4PchTECck)
 
 ### 5. Открытые конспекты и материалы HSE
 
@@ -116,4 +113,6 @@
 
 ## Благодарности
 
-При подготовке части материалов использовались открытые образовательные ресурсы и конспекты ФКН, включая материалы курса [Евгения Соколова](https://github.com/esokolov/ml-course-hse). Этот репозиторий не дублирует исходный курс, а собирает публичную версию именно ваших материалов в компактной и удобной структуре.
+При подготовке части материалов использовались открытые образовательные ресурсы и конспекты ФКН, включая материалы курса [Евгения Соколова](https://github.com/esokolov/ml-course-hse).
+
+Отдельная благодарность авторам [Yandex Handbook по машинному обучению](https://education.yandex.ru/handbook/ml) и [Yandex Handbook по Python](https://education.yandex.ru/handbook/python) за качественные и доступные учебные материалы.
