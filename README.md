@@ -48,39 +48,133 @@
 
 ## Дополнительные Материалы
 
+Ниже — подборка внешних материалов, которые хорошо дополняют лекции и семинары из репозитория. Список разбит на несколько уровней: быстрый вход, системные курсы и книги, практическая документация, а также материалы по отдельным темам курса.
+
 ### Базовые внешние ресурсы
 
 - [Yandex Handbook по машинному обучению](https://education.yandex.ru/handbook/ml)
 - [Yandex Handbook по Python](https://education.yandex.ru/handbook/python)
-- [Курс Евгения Соколова по машинному обучению на ФКН](https://github.com/esokolov/ml-course-hse)
-
-### Русский
-
-- [Что такое машинное обучение](https://education.yandex.ru/handbook/ml/article/mashinnoye-obucheniye)
-- [Линейные модели](https://education.yandex.ru/handbook/ml/article/linear-models)
-- [Метрики классификации и регрессии](https://education.yandex.ru/handbook/ml/article/metriki-klassifikacii-i-regressii)
-- [Кросс-валидация](https://education.yandex.ru/handbook/ml/article/kross-validaciya)
-- [Оптимизация в машинном обучении](https://education.yandex.ru/handbook/ml/article/optimizaciya-v-ml)
-- [Модули `math` и `numpy`](https://education.yandex.ru/handbook/python/article/moduli-math-i-numpy)
-- [Модуль `pandas`](https://education.yandex.ru/handbook/python/article/modul-pandas)
-- [Регуляризация: краткий конспект](https://deepmachinelearning.ru/docs/Machine-learning/Base-concepts/Regularization)
-- [Линейный классификатор: обзор от ODS / Habr](https://habr.com/ru/companies/ods/articles/323890/#lineynyy-klassifikator)
-
-### English
-
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+- [Курс Евгения Соколова по машинному обучению на ФКН](https://github.com/esokolov/ml-course-hse)
+- [Stanford CS229: Machine Learning](https://cs229.stanford.edu/)
+- [scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)
+
+### Системные курсы и книги
+
 - [Mathematics for Machine Learning](https://mml-book.github.io/)
 - [An Introduction to Statistical Learning](https://www.statlearning.com/)
+- [The Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/)
+- [Pattern Recognition and Machine Learning — Christopher Bishop](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
 - [Probabilistic Machine Learning](https://probml.github.io/pml-book/)
-- [CS229: Machine Learning](https://cs229.stanford.edu/)
-- [scikit-learn User Guide](https://sklearn.org/stable/user_guide.html)
-- [pandas: Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)
+- [CS229 Lecture Notes](https://cs229.stanford.edu/main_notes.pdf)
+
+### Практика и документация по Python-стеку
+
 - [NumPy User Guide](https://numpy.org/doc/stable/user/index.html)
+- [pandas: Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)
 - [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
-- [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html)
 - [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html)
+- [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html)
 - [Plotly for Python: Getting Started](https://plotly.com/python/getting-started/)
 
+### Материалы по темам курса
+
+#### 1. Overview / введение в ML
+
+- [Что такое машинное обучение — Yandex Handbook](https://education.yandex.ru/handbook/ml/article/mashinnoye-obucheniye)
+- [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course)
+- [CS229: course page](https://cs229.stanford.edu/)
+- [An Introduction to Statistical Learning](https://www.statlearning.com/)
+
+#### 2. Linear Regression
+
+- [Линейные модели — Yandex Handbook](https://education.yandex.ru/handbook/ml/article/linear-models)
+- [CS229 Lecture Notes](https://cs229.stanford.edu/main_notes.pdf)
+- [scikit-learn: Linear Models](https://scikit-learn.org/stable/modules/linear_model.html)
+- [ISLR](https://www.statlearning.com/)
+
+#### 3. Gradient Descent / Optimization
+
+- [Оптимизация в машинном обучении — Yandex Handbook](https://education.yandex.ru/handbook/ml/article/optimizaciya-v-ml)
+- [CS229 Lecture Notes](https://cs229.stanford.edu/main_notes.pdf)
+- [Mathematics for Machine Learning](https://mml-book.github.io/)
+- [PRML — Bishop](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+
+#### 4. Metrics / Model Evaluation
+
+- [Метрики классификации и регрессии — Yandex Handbook](https://education.yandex.ru/handbook/ml/article/metriki-klassifikacii-i-regressii)
+- [Кросс-валидация — Yandex Handbook](https://education.yandex.ru/handbook/ml/article/kross-validaciya)
+- [scikit-learn: Model Evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
+- [scikit-learn: Cross-Validation](https://scikit-learn.org/stable/modules/cross_validation.html)
+
+#### 5–6. Logistic Regression / Linear Classification / Calibration
+
+- [Линейные модели — Yandex Handbook](https://education.yandex.ru/handbook/ml/article/linear-models)
+- [Линейный классификатор: обзор от ODS / Habr](https://habr.com/ru/companies/ods/articles/323890/#lineynyy-klassifikator)
+- [scikit-learn: Linear Models](https://scikit-learn.org/stable/modules/linear_model.html)
+- [scikit-learn: Probability Calibration](https://scikit-learn.org/stable/modules/calibration.html)
+- [CalibratedClassifierCV](https://scikit-learn.org/stable/modules/generated/sklearn.calibration.CalibratedClassifierCV.html)
+
+#### 7. SVM
+
+- [CS229 Lecture Notes](https://cs229.stanford.edu/main_notes.pdf)
+- [scikit-learn: Support Vector Machines](https://scikit-learn.org/stable/modules/svm.html)
+- [PRML — Bishop](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+
+#### 8. Multiclass Classification
+
+- [scikit-learn: Multiclass and Multioutput Algorithms](https://scikit-learn.org/stable/modules/multiclass.html)
+- [scikit-learn: Linear Models](https://scikit-learn.org/stable/modules/linear_model.html)
+- [CS229 Lecture Notes](https://cs229.stanford.edu/main_notes.pdf)
+
+#### 9. Decision Trees
+
+- [scikit-learn: Decision Trees](https://scikit-learn.org/stable/modules/tree.html)
+- [CS229 Notes: Decision Trees + Ensemble Methods](https://cs229.stanford.edu/notes_archive/rf-notes.pdf)
+- [ISLR](https://www.statlearning.com/)
+- [ESL](https://hastie.su.domains/ElemStatLearn/)
+
+#### 10. Bias–Variance Decomposition
+
+- [ISLR](https://www.statlearning.com/)
+- [ESL](https://hastie.su.domains/ElemStatLearn/)
+- [PRML — Bishop](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+
+#### 11. Bagging / Random Forest
+
+- [scikit-learn: Ensemble Methods](https://scikit-learn.org/stable/modules/ensemble.html)
+- [scikit-learn: Random Forests and other randomized tree ensembles](https://scikit-learn.org/stable/modules/ensemble.html#forest)
+- [CS229 Notes: Decision Trees + Ensemble Methods](https://cs229.stanford.edu/notes_archive/rf-notes.pdf)
+- [ISLR](https://www.statlearning.com/)
+
+#### 12. Gradient Boosting
+
+- [scikit-learn: Gradient Boosting](https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting)
+- [scikit-learn: Histogram-Based Gradient Boosting](https://scikit-learn.org/stable/modules/ensemble.html#histogram-based-gradient-boosting)
+- [CS229 Notes: Decision Trees + Ensemble Methods](https://cs229.stanford.edu/notes_archive/rf-notes.pdf)
+- [ESL](https://hastie.su.domains/ElemStatLearn/)
+
+### Отдельно для подготовки по математике
+
+- [Mathematics for Machine Learning](https://mml-book.github.io/)
+- [Модули `math` и `numpy` — Yandex Handbook по Python](https://education.yandex.ru/handbook/python/article/moduli-math-i-numpy)
+- [NumPy User Guide](https://numpy.org/doc/stable/user/index.html)
+
+### Отдельно для практики с данными и визуализацией
+
+- [Модуль `pandas` — Yandex Handbook по Python](https://education.yandex.ru/handbook/python/article/modul-pandas)
+- [pandas: Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)
+- [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+- [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html)
+- [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html)
+- [Plotly for Python: Getting Started](https://plotly.com/python/getting-started/)
+
+### Как использовать эту подборку
+
+- Если тема изучается впервые: начать с Yandex Handbook / Google ML Crash Course.
+- Если нужен более академический и связный текст: читать ISLR, CS229, PRML, ESL.
+- Если нужно сразу применять методы в коде: смотреть `scikit-learn User Guide` и официальную документацию `pandas` / `numpy` / `matplotlib`.
+- Если нужно повторить математику под линейные модели, оптимизацию и вероятности: использовать Mathematics for Machine Learning.
 ## Где Читался Курс
 
 Материалы из этого репозитория использовались и адаптировались для курсов по машинному обучению на нескольких программах ФКН НИУ ВШЭ:
