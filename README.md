@@ -28,15 +28,15 @@
 
 | № | Тема | Лекция | Семинар / практика | Записи |
 | --- | --- | --- | --- | --- |
-| 1 | Overview | [Overview и введение в ML](lectures/01-overview.pdf) | [Основы pandas](seminars/practice-00-pandas-basics.ipynb) | TODO |
-| 2 | Linear Regression | [Линейная регрессия](lectures/02-linreg.pdf) | [Линейная регрессия в `sklearn`](seminars/practice-02-linear-regression-with-sklearn.ipynb), [Мини-проект B: линейные модели](homeworks/mini-project-b-linear-models.ipynb) | TODO |
-| 3 | Gradient Descent | [Градиентный спуск](lectures/03-gradient-descent.pdf) | [Разминка по градиентному спуску](seminars/practice-01-gradient-descent-warmup.ipynb), [Практика по градиентному спуску](seminars/practice-01-gradient-descent-hands-on.ipynb), [Оптимизация и градиентные методы](seminars/practice-03-optimization-and-gradient-methods.ipynb) | TODO |
-| 4 | Metrics | [Метрики](lectures/04-metrics.pdf) | [Признаки, препроцессинг и функции потерь](seminars/practice-02-feature-engineering-and-losses.ipynb) | TODO |
-| 5 | Logistic Regression I | [Логистическая регрессия, часть 1](lectures/05-logreg-part-1.pdf) | [Бинарная линейная классификация](seminars/practice-04-binary-linear-classification.ipynb) | TODO |
-| 6 | Logistic Regression II | [Логистическая регрессия, часть 2](lectures/06-logreg-part-2.pdf) | [Линейные классификаторы](seminars/practice-05-linear-classifiers.ipynb)| TODO |
-| 7 | SVM | [Support Vector Machines](lectures/07-svm.pdf) | [Логистическая регрессия и SVM](seminars/practice-05-logreg-and-svm.ipynb) | TODO |
+| 1 | Overview | [Overview и введение в ML](lectures/01-overview.pdf) | [Основы pandas](seminars/practice-00-pandas-basics.ipynb) | [Первая запись](https://youtu.be/KEZnL-ek6BI?si=gedqj8MYH6EqV5iV) |
+| 2 | Linear Regression | [Линейная регрессия](lectures/02-linreg.pdf) | [Линейная регрессия в `sklearn`](seminars/practice-02-linear-regression-with-sklearn.ipynb), [Мини-проект B: линейные модели](homeworks/mini-project-b-linear-models.ipynb) | [Вторая запись](https://youtu.be/CfsVtg6DexU?si=RdfcxgQlGCp7kdAW) |
+| 3 | Gradient Descent | [Градиентный спуск](lectures/03-gradient-descent.pdf) | [Разминка по градиентному спуску](seminars/practice-01-gradient-descent-warmup.ipynb), [Практика по градиентному спуску](seminars/practice-01-gradient-descent-hands-on.ipynb), [Оптимизация и градиентные методы](seminars/practice-03-optimization-and-gradient-methods.ipynb) | [Третья запись](https://youtu.be/dXVE_Oau60w?si=pN1P1Wp4BC_vWx_P) |
+| 4 | Metrics | [Метрики](lectures/04-metrics.pdf) | [Признаки, препроцессинг и функции потерь](seminars/practice-02-feature-engineering-and-losses.ipynb) | [Четвертая запись](https://youtu.be/-pTFcxbt07o?si=51lHhvCDjV-G9t8I) [Пятая запись](https://youtu.be/6suyW61-apY?si=jtI02M3hvejAWJXQ) |
+| 5 | Logistic Regression I | [Логистическая регрессия, часть 1](lectures/05-logreg-part-1.pdf) | [Бинарная линейная классификация](seminars/practice-04-binary-linear-classification.ipynb) | [Шестая запись](https://youtu.be/rYEp3tZwHKA?si=ktbBQqKVCnO6dth5)  |
+| 6 | Logistic Regression II | [Логистическая регрессия, часть 2](lectures/06-logreg-part-2.pdf) | [Линейные классификаторы](seminars/practice-05-linear-classifiers.ipynb)| [Седьмая запись](https://youtu.be/qX3mcE-1iJ8?si=OH7hqKj3YiIdyXgu) |
+| 7 | SVM | [Support Vector Machines](lectures/07-svm.pdf) | [Логистическая регрессия и SVM](seminars/practice-05-logreg-and-svm.ipynb) | [Седьмая запись](https://youtu.be/qX3mcE-1iJ8?si=OH7hqKj3YiIdyXgu) |
 | 8 | Multiclass Classification | [Многоклассовая классификация](lectures/08-multiclass-classification.pdf) | [Калибровка вероятностей](seminars/practice-06-probability-calibration.ipynb) | TODO |
-| 9 | Decision Trees | [Решающие деревья](lectures/09-decision-trees.pdf) | [Практика по решающим деревьям](seminars/practice-07-decision-trees.ipynb) | TODO |
+| 9 | Decision Trees | [Решающие деревья](lectures/09-decision-trees.pdf) | [Практика по решающим деревьям](seminars/practice-07-decision-trees.ipynb) | [Восьмая запись](https://youtu.be/q6Ubpioa1Yk?si=aYefUGz8OUFMZ8yv) |
 | 10 | BVD | [Bias-Variance Decomposition](lectures/10-bias-variance-decomposition.pdf) | [Случайный лес и BVD](seminars/practice-09-random-forest.ipynb) | TODO |
 | 11 | Bagging + RF | [Bagging и Random Forest](lectures/11-bagging-and-random-forest.pdf) | [Случайный лес и BVD](seminars/practice-09-random-forest.ipynb) | TODO |
 | 12 | GB | [Gradient Boosting](lectures/12-gradient-boosting.pdf) | [Бустинг: базовая практика](seminars/practice-10-boosting-basics.ipynb), [Продвинутые техники бустинга](seminars/practice-11-advanced-boosting.ipynb) | TODO |
