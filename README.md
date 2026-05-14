@@ -8,7 +8,7 @@
 
 - лекции в формате PDF;
 - семинарские ноутбуки;
-- первые два домашних мини-проекта.
+- домашние мини-проекты и практические задания.
 
 ## Что Внутри
 
@@ -20,7 +20,7 @@
 
 Лекции можно смотреть как обычные PDF. Семинары и домашние задания оформлены как Jupyter notebooks.
 
-Для работы с ноутбуками достаточно `jupyter` / `jupyterlab` и базового стека `numpy`, `pandas`, `matplotlib`, `scikit-learn`. Для отдельных материалов может пригодиться `kaggle` CLI.
+Для работы с большинством ноутбуков достаточно `jupyter` / `jupyterlab` и базового стека `numpy`, `pandas`, `matplotlib`, `scikit-learn`. Для бустинга пригодятся `xgboost`, `catboost` и `pyarrow`, для extra-семинаров по нейросетям - `torch` и `torchvision`. Для отдельных материалов может пригодиться `kaggle` CLI.
 
 ## План Тем
 
@@ -39,12 +39,17 @@
 | 9 | Decision Trees | [Решающие деревья](lectures/09-decision-trees.pdf) | [Практика по решающим деревьям](seminars/practice-07-decision-trees.ipynb) | [Восьмая запись](https://youtu.be/q6Ubpioa1Yk?si=aYefUGz8OUFMZ8yv) |
 | 10 | BVD | [Bias-Variance Decomposition](lectures/10-bias-variance-decomposition.pdf) | [Случайный лес и BVD](seminars/practice-09-random-forest.ipynb) | TODO |
 | 11 | Bagging + RF | [Bagging и Random Forest](lectures/11-bagging-and-random-forest.pdf) | [Случайный лес и BVD](seminars/practice-09-random-forest.ipynb) | TODO |
-| 12 | GB | [Gradient Boosting](lectures/12-gradient-boosting.pdf) | [Бустинг: базовая практика](seminars/practice-10-boosting-basics.ipynb), [Продвинутые техники бустинга](seminars/practice-11-advanced-boosting.ipynb) | TODO |
+| 12 | GB | [Gradient Boosting](lectures/12-gradient-boosting.pdf) | [Бустинг: базовая практика](seminars/practice-10-boosting-basics.ipynb), [Продвинутые техники бустинга](seminars/practice-11-advanced-boosting.ipynb), [Мини-проект E: градиентный бустинг](homeworks/mini-project-e-gradient-boosting.ipynb) | TODO |
+| Extra 1 | PyTorch: tensors + autograd | - | [Основы PyTorch: тензоры и autograd](seminars/practice-extra-01-pytorch-tensors-autograd.ipynb) | TODO |
+| Extra 2 | PyTorch: MLP + training loop | - | [Основы PyTorch: `torch.nn`, данные и обучение MLP](seminars/practice-extra-02-pytorch-mlp-training.ipynb) | TODO |
 
 ## Домашние Мини-Проекты
 
 - [Мини-проект A: tabular data](homeworks/mini-project-a-tabular-data.ipynb) - работа с `pandas`, табличными данными и визуализацией;
-- [Мини-проект B: linear models](homeworks/mini-project-b-linear-models.ipynb) - признаки, линейные модели и регрессия.
+- [Мини-проект B: linear models](homeworks/mini-project-b-linear-models.ipynb) - признаки, линейные модели и регрессия;
+- [Мини-проект C: linear classification](homeworks/mini-project-c-linear-classification.ipynb) - линейные классификаторы и качество классификации;
+- [Мини-проект D: decision trees](homeworks/mini-project-d-decision-trees.ipynb) - решающие деревья, визуализация разбиений и собственная реализация дерева; шаблон кода: [homeworks/hw4code.py](homeworks/hw4code.py);
+- [Мини-проект E: gradient boosting](homeworks/mini-project-e-gradient-boosting.ipynb) - собственная реализация бустинга, регуляризация, перебор гиперпараметров и работа с категориальными признаками; шаблон кода: [homeworks/boosting.py](homeworks/boosting.py), данные: [homeworks/boosting_dataset.pq](homeworks/boosting_dataset.pq).
 
 ## Дополнительные Материалы
 
@@ -149,10 +154,32 @@
 
 #### 12. Gradient Boosting
 
+- [Лекция: Gradient Boosting](lectures/12-gradient-boosting.pdf)
+- [Семинар: базовая практика бустинга](seminars/practice-10-boosting-basics.ipynb)
+- [Семинар: продвинутые техники бустинга](seminars/practice-11-advanced-boosting.ipynb)
+- [Домашний мини-проект E: gradient boosting](homeworks/mini-project-e-gradient-boosting.ipynb)
 - [scikit-learn: Gradient Boosting](https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting)
 - [scikit-learn: Histogram-Based Gradient Boosting](https://scikit-learn.org/stable/modules/ensemble.html#histogram-based-gradient-boosting)
+- [XGBoost: Python Package Introduction](https://xgboost.readthedocs.io/en/stable/python/python_intro.html)
+- [XGBoost: Parameters](https://xgboost.readthedocs.io/en/stable/parameter.html)
+- [XGBoost: Categorical Data](https://xgboost.readthedocs.io/en/stable/tutorials/categorical.html)
+- [CatBoost: Python Quickstart](https://catboost.ai/docs/en/concepts/python-quickstart.html)
+- [CatBoost: Training Parameters](https://catboost.ai/docs/en/references/training-parameters/)
+- [CatBoost: Categorical Features](https://catboost.ai/docs/en/features/categorical-features)
 - [CS229 Notes: Decision Trees + Ensemble Methods](https://cs229.stanford.edu/notes_archive/rf-notes.pdf)
 - [ESL](https://hastie.su.domains/ElemStatLearn/)
+
+Что полезно разобрать после лекции: функциональный градиентный спуск и обучение на антиградиенты, `learning_rate`, `n_estimators`, глубину деревьев, `subsample`, `colsample` / RSM, early stopping, обработку категориальных признаков и валидационные кривые.
+
+Мини-чеклист для практики: начните с фиксированного `train` / `validation` split, заведите baseline на `HistGradientBoostingClassifier` или `RandomForestClassifier`, для XGBoost попробуйте `max_depth`, `eta`, `subsample`, `colsample_bytree`, `min_child_weight`, `reg_lambda`, для CatBoost - `depth`, `learning_rate`, `iterations`, `l2_leaf_reg`, `cat_features`, `early_stopping_rounds`.
+
+#### Extra. PyTorch basics
+
+- [Extra-семинар 1: основы PyTorch, тензоры и autograd](seminars/practice-extra-01-pytorch-tensors-autograd.ipynb)
+- [Extra-семинар 2: `torch.nn`, MLP, датасеты и training loop](seminars/practice-extra-02-pytorch-mlp-training.ipynb)
+- [PyTorch: Learn the Basics](https://docs.pytorch.org/tutorials/beginner/basics/intro.html)
+- [PyTorch Quickstart](https://docs.pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html)
+- [Learning PyTorch with Examples](https://docs.pytorch.org/tutorials/beginner/pytorch_with_examples.html)
 
 ### Отдельно для подготовки по математике
 
